@@ -49,12 +49,10 @@ function UsersScreen({ navigation }) {
                             hasFollowed = true
                         }
                     }
-                   
+
                     usersTags.push(<Card style={styles.card} onPress={() => {
                         console.log(user.id)
-                        // navigation.navigate("OtherProfileScreen",{
-                        //     "id":user.id
-                        // })
+
                     }
                     }>
                         <Card.Title title={user.data().name} subtitle={user.data().email} left={LeftContent} />

@@ -36,7 +36,7 @@ function Following({ navigation }) {
                 }
               //  console.log(name)
                 
-                arr.push(<Card style={styles.card} onPress={() => handle(k)}>
+                arr.push(<Card style={styles.card}>
                     <Card.Title title={name} subtitle={email} left={LeftContent} />
 
                 </Card>)

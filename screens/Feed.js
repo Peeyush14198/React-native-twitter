@@ -60,7 +60,7 @@ function Feed({ navigation }) {
                                 }
                                 var post = activitySnap.docs[i].data().post;
                                 activityFeed.push(
-                                    <Card style={styles.card} onPress={() => { console.log(j) }}>
+                                    <Card style={styles.card} >
                                         <Card.Title title={name} subtitle={email} left={LeftContent} />
                                         <Card.Content>
                                             <Paragraph>{post}</Paragraph>
